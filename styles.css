@@ -17,3 +17,10 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+.imagen img {
+    width: 300px;
+    height: 200px;
+}
+.imagen img:hover {
+    transform: scale(1.2);
+}
