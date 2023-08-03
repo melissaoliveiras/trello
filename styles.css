@@ -17,3 +17,13 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+.titulos {
+    font-family: 'Nombre de la Tipografia', sans-serif; 
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-family: "Times New Roman", serif;
+}
