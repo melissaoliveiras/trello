@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(234, 250, 241 );
 }
 
 .image img {
@@ -24,11 +24,7 @@ body {
 }
 
 
-.titulos {
-    font-family: 'Nombre de la Tipografia', sans-serif; 
-    font-weight: bold;
-    color: #333;
-}
+
 
 p {
  
@@ -55,3 +51,4 @@ p {
 	position:relative;
 	top:1px;
 }
+
