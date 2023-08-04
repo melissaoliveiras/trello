@@ -2,13 +2,18 @@ body {
     background-color: rgb(234, 250, 241 );
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+.image img {
+    width: 300px;
+    height: 200px;
 }
 
+.image img:hover {
+    transform: scale(1.2);
+  }
+
+
 .link-button {
+
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -17,3 +22,33 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+
+
+
+p {
+ 
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 41px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.link-button:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.link-button:active {
+	position:relative;
+	top:1px;
+}
+
