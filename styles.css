@@ -10,6 +10,16 @@ body {
 
 
 .link-button {
+
+
+.titulos {
+    font-family: 'Nombre de la Tipografia', sans-serif; 
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+ 
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	background-color:#ededed;
@@ -32,4 +42,5 @@ body {
 .link-button:active {
 	position:relative;
 	top:1px;
+
 }
